@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Завдання-8</h1>
+    <p>
+      8. Дано масив номерів авто. Сформувати новий масив тих, які починаються на
+      «А»
+    </p>
+    <script>
+      const numCarsList = [
+        "CB3256KX",
+        "KA3425TC",
+        "AA5678TK",
+        "AC3654HT",
+        "HA6549TA",
+      ];
+
+      let numCars2List = numCarsList.filter((element, index, arrRef) =>
+        element.startsWith("A")
+      );
+      document.write(`${numCars2List}`);
+    </script>
+  </body>
+</html>

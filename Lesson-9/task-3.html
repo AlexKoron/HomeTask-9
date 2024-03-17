@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Завдання-3</h1>
+    <p>
+      3. Користувач вводить кількість елементів. Створити масив, у якому перші 5 елементів заповнені 1-цями, а інші до кінця масиву заповнені 7-ками.
+    </p>
+    <script>
+      const numElements = parseInt(prompt("Кількість елементів"));
+      let massifElements = new Array(numElements).fill(7);
+      massifElements.fill(1, 0, 5);
+      document.write(massifElements);
+    </script>
+  </body>
+</html>
